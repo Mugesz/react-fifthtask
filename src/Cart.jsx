@@ -11,8 +11,7 @@ const Cart = () => {
     <div>
       <Navbar />
       <section
-        className="h-100 h-custom"
-        style={{ backgroundColor: "#d2c9ff" }}
+        className="h-100 h-custom top"
       >
         <div className="container py-5 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
@@ -144,7 +143,9 @@ const Cart = () => {
             </div>
           </div>
         </div>
+        <br /><br /><br /> <br /><br />
       </section>
+     
       <Footer />
     </div>
   );

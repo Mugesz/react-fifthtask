@@ -22,12 +22,12 @@ const Product = () => {
         ) : (
           <div className="container px-4 px-lg-5 mt-5 card-color">
             <section className="py-5">
-              <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 col-sm-12 justify-content-center">
+              <div className="row gx-4 gx-lg-3 row-cols-1 row-cols-md-3 row-cols-xl-4 col-sm-12 justify-content-center">
                 {product.map((item) => (
                   <div key={item.id} className="col mb-5 cart-key">
-                    <div className="card h-100">
+                    <div className="card text-center h-100">
                       <img
-                        className="card-img-top p-3"
+                        className="card-img-top p-3 mx-auto"
                         src={item.image}
                         alt="..."
                         style={{ height: "200px", width: "200px" }}

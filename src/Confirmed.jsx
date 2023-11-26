@@ -20,12 +20,21 @@ const Confirmed = () => {
       <br />
       <br />
 
-      <Link className="btn" to="/product">
-        <h3>Back to All Products</h3>
+
+
+<div>
+<Link className="btn" to="/product">
+        <h3 className="btn btn-outline-success">Go to All Products</h3>
       </Link>
 
+      <Link className="btn" to="/cart">
+        <h3 className="btn btn-outline-success">Go to Cart</h3>
+      </Link>
+</div>
+     
+
       <br />
-      <br />
+      
       <Footer />
     </div>
   );

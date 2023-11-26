@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
+    <div className="top">
+
+    
     <div className="container">
       <Link className="btn" to="/product">
         <div className="row gx-4 gx-lg-4 row-cols-1 row-cols-md-3 row-cols-xl-4 col-sm-12 justify-content-center">
@@ -65,6 +68,7 @@ const Hero = () => {
         </div>
         <h1 className="text-body">Go to All products</h1>
       </Link>
+    </div>
     </div>
   );
 };
