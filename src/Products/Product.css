@@ -15,9 +15,14 @@
   );
 }
 
+.top {
+  background: rgb(9,73,121);
+background: linear-gradient(90deg, rgba(9,73,121,1) 0%, rgba(9,79,111,1) 0%, rgba(6,161,110,1) 0%, rgba(9,182,93,1) 5%, rgba(20,255,106,1) 27%, rgba(14,220,218,1) 40%, rgba(0,140,176,1) 59%, rgba(1,155,52,1) 77%, rgba(9,244,103,1) 98%, rgba(2,164,110,1) 100%, rgba(5,137,139,1) 100%);
+}
 
-.confirmed h1{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.confirmed h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .spinner-container {

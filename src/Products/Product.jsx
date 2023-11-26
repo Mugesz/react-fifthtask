@@ -13,14 +13,14 @@ const Product = () => {
     useContext(UserContext);
 
   return (
-    <>
+    <div className="top">
       <Navbar />
       <div>
         <Header />
         {loading ? (
           <Spinner />
         ) : (
-          <div className="container bg-light px-4 px-lg-5 mt-5 card-color">
+          <div className="container px-4 px-lg-5 mt-5 card-color">
             <section className="py-5">
               <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 col-sm-12 justify-content-center">
                 {product.map((item) => (
@@ -68,7 +68,7 @@ const Product = () => {
         )}
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
