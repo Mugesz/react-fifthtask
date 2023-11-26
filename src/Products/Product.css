@@ -1,0 +1,46 @@
+.card-color {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(64, 187, 52, 1) 0%,
+    rgba(10, 215, 249, 1) 0%,
+    rgba(231, 246, 230, 1) 0%,
+    rgba(158, 215, 244, 1) 0%,
+    rgba(41, 171, 227, 1) 0%,
+    rgba(25, 196, 240, 1) 8%,
+    rgba(66, 193, 209, 1) 51%,
+    rgba(0, 248, 217, 1) 84%,
+    rgba(193, 249, 255, 1) 100%
+  );
+}
+
+
+.confirmed h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* You can adjust the height based on your layout */
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-top: 8px solid #000; /* Adjust color as needed */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
